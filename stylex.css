@@ -1,0 +1,56 @@
+/* General body styling for better aesthetics */
+body {
+    font-family: 'Roboto', sans-serif; /* Using a different font */
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Class selector: Styling the main heading */
+.main-heading {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+}
+
+/* ID selector: Styling the introductory text */
+#intro-text {
+    font-size: 1.2em;
+    color: #555;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Class selector: Styling the action button */
+.action-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.action-button:hover {
+    background-color: #2980b9;
+}
+
+/* Class selector: Styling the image */
+.styled-image {
+    width: 300px;
+    height: auto;
+    margin: 20px 0;
+    padding: 5px;
+    border: 3px solid #3498db;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
